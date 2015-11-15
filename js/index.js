@@ -43,15 +43,15 @@ $(document).ready(function(){
 		city = $("#city-type option:selected").val(); 
 
 		    if (city === "NYC"){
-				$('body').css('backgroundImage','url(images/nyc.jpg)');
+				$('body').addClass('nyc');
 			} else if (city === "SF"){
-				$('body').css('backgroundImage','url(images/sf.jpg)');
+				$('body').addClass('sf');
 			} else if (city === "LA"){
-				$('body').css('backgroundImage','url(images/la.jpg)');
+				$('body').addClass('la');
 			} else if (city === "ATX"){
-				$('body').css('backgroundImage','url(images/austin.jpg)');
+				$('body').addClass('austin');
 			} else if (city === "SYD"){
-				$('body').css('backgroundImage','url(images/sydney.jpg)');
+				$('body').addClass('sydney');
 			} else {
 				$('body').css('backgroundImage','url(images/citipix_skyline.jpg)');
 			}
